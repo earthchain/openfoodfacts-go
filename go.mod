@@ -1,3 +1,3 @@
-module github.com/openfoodfacts/openfoodfacts-go
+module github.com/earthchain/openfoodfacts-go
 
 go 1.14
