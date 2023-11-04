@@ -31,6 +31,7 @@ type Product struct {
 	Creator                                     string         `json:"creator"`
 	Checkers                                    []interface{}  `json:"checkers"`
 	CheckersTags                                []interface{}  `json:"checkers_tags"`
+	EcoScoreData                                EcoScoreData   `json:"ecoscore_data"`
 	Editors                                     []string       `json:"editors"`
 	EditorsTags                                 []string       `json:"editors_tags"`
 	Correctors                                  []string       `json:"correctors"`
