@@ -132,6 +132,7 @@ type Product struct {
 	PnnsGroups2Tags                             []string       `json:"pnns_groups_2_tags"`
 	ProductName                                 string         `json:"product_name"`
 	ProductNameEn                               string         `json:"product_name_en"`
+	ProductQuantity                             interface{}    `json:"product_quantity"`
 	PurchasePlaces                              string         `json:"purchase_places"`
 	PurchasePlacesTags                          []interface{}  `json:"purchase_places_tags"`
 	Quantity                                    string         `json:"quantity"`

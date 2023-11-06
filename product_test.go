@@ -5,6 +5,7 @@ package openfoodfacts_test
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"os"
 	"testing"
@@ -77,6 +78,7 @@ func TestProduct_Unmarshalling(t *testing.T) {
 				t.Error("Error when unmarshalling test data", tc.fixture)
 				return
 			}
+			fmt.Printf("Quantity: %s - %s\n", pr.Product.Quantity, pr.Product.ProductQuantity)
 		})
 	}
 }
